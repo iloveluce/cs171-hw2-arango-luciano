@@ -39,6 +39,7 @@
     <label><input type="radio" name="size" value="size_cat" > Category</label>
   </form>
 <script>
+d3.json("commits.json", function(error, commits){
 
 var width = 900,
     height = 700;
@@ -50,21 +51,58 @@ var svg = d3.select("body").append("svg")
 var fill = d3.scale.category10();
 
 var graph = {nodes:[], links:[]};
+//console.log(commits);
 
-var nb_nodes = 100, nb_cat = 10;
+
+var nb_nodes = 0;
+var nb_cat = 5;
+
+
+var parent_url = [];
 
 graph.nodes = d3.range(nb_nodes).map(function() {  
   return { cat:Math.floor(nb_cat*Math.random()) }; 
 })
 
+
+for (var k in commits) { 
+graph.nodes.push(commits[k]); 
+};
+
 graph.nodes.map(function(d, i) {
 
   graph.nodes.map(function(e, j) {
-    if(Math.random()>.99 && i!=j)
-      graph.links.push({"source": i, "target": j})
 
+    //console.log(d.parents);
+      //console.log(d);
+      //console.log(e);
+
+    for(var b in d.parents){
+      for(var c in e.parents){
+         if(d.parents[b].url == e.parents[c].url  && i != j)
+          {
+          console.log("Stx with");
+          console.log(i);
+          console.log("and");
+          console.log(j);
+          graph.links.push({"source": i, "target": j})
+          }
+      }
+
+    }
+   
+    
+
+   // if(Math.random()>.99 && i!=j)
+     // graph.links.push({"source": i, "target": j})
+
+    
+    
   })
 })
+ 
+
+//console.log(graph);
 
 // Generate the force layout
 var force = d3.layout.force()
@@ -201,6 +239,8 @@ node.append("circle")
     .attr("r", 5)
 
 force_layout();
+
+});
 
 </script>
 </body>
