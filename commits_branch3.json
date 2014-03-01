@@ -1,51 +1,51 @@
 [
   {
-    "sha": "21b5338205e2e4ab3baf75afdca86e56623a33cc",
+    "sha": "e18c075b703f85a6b30866851a02b682debf041e",
     "commit": {
       "author": {
-        "name": "Thiago de Arruda",
-        "email": "tpadilha84@gmail.com",
-        "date": "2014-02-01T13:11:30Z"
+        "name": "Felipe Oliveira Carvalho",
+        "email": "felipekde@gmail.com",
+        "date": "2014-02-28T05:54:47Z"
       },
       "committer": {
         "name": "Thiago de Arruda",
         "email": "tpadilha84@gmail.com",
-        "date": "2014-02-01T13:11:30Z"
+        "date": "2014-02-28T21:37:01Z"
       },
-      "message": "DLJSAD",
+      "message": "Extract file_search.c from misc2.c\n\nContinue to split misc2.c in many other files (see #209).\n\nThe only changed I made to the moved code was adding\n`vim_free(ff_expand_buffer)` to `free_finfile()`. This is was needed\nbecause `ff_expand_buffer` was moved from `misc2.c` to `file_search.c`.",
       "tree": {
-        "sha": "cf4ad1d0ccc3c801eeb3b99dbd3928139277b272",
-        "url": "https://api.github.com/repos/neovim/neovim/git/trees/cf4ad1d0ccc3c801eeb3b99dbd3928139277b272"
+        "sha": "ae5739cfe94f9ea436b4cdccb9c19268545f4ad1",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/ae5739cfe94f9ea436b4cdccb9c19268545f4ad1"
       },
-      "url": "https://api.github.com/repos/neovim/neovim/git/commits/21b5338205e2e4ab3baf75afdca86e56623a33cc",
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/e18c075b703f85a6b30866851a02b682debf041e",
       "comment_count": 0
     },
-    "url": "https://api.github.com/repos/neovim/neovim/commits/21b5338205e2e4ab3baf75afdca86e56623a33cc",
-    "html_url": "https://github.com/neovim/neovim/commit/21b5338205e2e4ab3baf75afdca86e56623a33cc",
-    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/21b5338205e2e4ab3baf75afdca86e56623a33cc/comments",
+    "url": "https://api.github.com/repos/neovim/neovim/commits/e18c075b703f85a6b30866851a02b682debf041e",
+    "html_url": "https://github.com/neovim/neovim/commit/e18c075b703f85a6b30866851a02b682debf041e",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/e18c075b703f85a6b30866851a02b682debf041e/comments",
     "author": {
-      "login": "tarruda",
-      "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
-      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
-      "url": "https://api.github.com/users/tarruda",
-      "html_url": "https://github.com/tarruda",
-      "followers_url": "https://api.github.com/users/tarruda/followers",
-      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
-      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
-      "organizations_url": "https://api.github.com/users/tarruda/orgs",
-      "repos_url": "https://api.github.com/users/tarruda/repos",
-      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "login": "philix",
+      "id": 207795,
+      "avatar_url": "https://avatars.githubusercontent.com/u/207795",
+      "gravatar_id": "57cd99746126aa0518136a4271f1f9c1",
+      "url": "https://api.github.com/users/philix",
+      "html_url": "https://github.com/philix",
+      "followers_url": "https://api.github.com/users/philix/followers",
+      "following_url": "https://api.github.com/users/philix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/philix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/philix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/philix/subscriptions",
+      "organizations_url": "https://api.github.com/users/philix/orgs",
+      "repos_url": "https://api.github.com/users/philix/repos",
+      "events_url": "https://api.github.com/users/philix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/philix/received_events",
       "type": "User",
       "site_admin": false
     },
     "committer": {
       "login": "tarruda",
       "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
       "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
       "url": "https://api.github.com/users/tarruda",
       "html_url": "https://github.com/tarruda",
@@ -63,59 +63,59 @@
     },
     "parents": [
       {
-        "sha": "85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3",
-        "url": "https://api.github.com/repos/neovim/neovim/commits/85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3",
-        "html_url": "https://github.com/neovim/neovim/commit/85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3"
+        "sha": "007a19c4971e42d1bb7fdafc8fc7d6d8885120f2",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/007a19c4971e42d1bb7fdafc8fc7d6d8885120f2",
+        "html_url": "https://github.com/neovim/neovim/commit/007a19c4971e42d1bb7fdafc8fc7d6d8885120f2"
       }
     ]
   },
   {
-    "sha": "85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3",
+    "sha": "007a19c4971e42d1bb7fdafc8fc7d6d8885120f2",
     "commit": {
       "author": {
-        "name": "Thiago de Arruda",
-        "email": "tpadilha84@gmail.com",
-        "date": "2014-01-31T18:17:16Z"
+        "name": "scott-linder",
+        "email": "scott.b.linder@wmich.edu",
+        "date": "2014-02-28T19:10:08Z"
       },
       "committer": {
         "name": "Thiago de Arruda",
         "email": "tpadilha84@gmail.com",
-        "date": "2014-01-31T18:17:16Z"
+        "date": "2014-02-28T21:28:27Z"
       },
-      "message": "Reimplement mch{inchar,delay,char_avail}",
+      "message": "Added a types.h with vim.h unsigned int typedefs.",
       "tree": {
-        "sha": "70879eb32fdc4d6e8e172c6bf7ecc45cc62015db",
-        "url": "https://api.github.com/repos/neovim/neovim/git/trees/70879eb32fdc4d6e8e172c6bf7ecc45cc62015db"
+        "sha": "8bae444df07cee0e48b74965f966e1e0fea57e12",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/8bae444df07cee0e48b74965f966e1e0fea57e12"
       },
-      "url": "https://api.github.com/repos/neovim/neovim/git/commits/85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3",
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/007a19c4971e42d1bb7fdafc8fc7d6d8885120f2",
       "comment_count": 0
     },
-    "url": "https://api.github.com/repos/neovim/neovim/commits/85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3",
-    "html_url": "https://github.com/neovim/neovim/commit/85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3",
-    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/85b5eeb90405ba0b1d93a4b78acf7d11b944f9e3/comments",
+    "url": "https://api.github.com/repos/neovim/neovim/commits/007a19c4971e42d1bb7fdafc8fc7d6d8885120f2",
+    "html_url": "https://github.com/neovim/neovim/commit/007a19c4971e42d1bb7fdafc8fc7d6d8885120f2",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/007a19c4971e42d1bb7fdafc8fc7d6d8885120f2/comments",
     "author": {
-      "login": "tarruda",
-      "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
-      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
-      "url": "https://api.github.com/users/tarruda",
-      "html_url": "https://github.com/tarruda",
-      "followers_url": "https://api.github.com/users/tarruda/followers",
-      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
-      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
-      "organizations_url": "https://api.github.com/users/tarruda/orgs",
-      "repos_url": "https://api.github.com/users/tarruda/repos",
-      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "login": "scott-linder",
+      "id": 5913908,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5913908",
+      "gravatar_id": "34a08959d928df392b999d2cc99936eb",
+      "url": "https://api.github.com/users/scott-linder",
+      "html_url": "https://github.com/scott-linder",
+      "followers_url": "https://api.github.com/users/scott-linder/followers",
+      "following_url": "https://api.github.com/users/scott-linder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scott-linder/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scott-linder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scott-linder/subscriptions",
+      "organizations_url": "https://api.github.com/users/scott-linder/orgs",
+      "repos_url": "https://api.github.com/users/scott-linder/repos",
+      "events_url": "https://api.github.com/users/scott-linder/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scott-linder/received_events",
       "type": "User",
       "site_admin": false
     },
     "committer": {
       "login": "tarruda",
       "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
       "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
       "url": "https://api.github.com/users/tarruda",
       "html_url": "https://github.com/tarruda",
@@ -133,59 +133,59 @@
     },
     "parents": [
       {
-        "sha": "802694aeefbf58c7816d3c070174fc483c150927",
-        "url": "https://api.github.com/repos/neovim/neovim/commits/802694aeefbf58c7816d3c070174fc483c150927",
-        "html_url": "https://github.com/neovim/neovim/commit/802694aeefbf58c7816d3c070174fc483c150927"
+        "sha": "3f29a02166878bdbf32b0d638aa0e0c9d83a73cc",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/3f29a02166878bdbf32b0d638aa0e0c9d83a73cc",
+        "html_url": "https://github.com/neovim/neovim/commit/3f29a02166878bdbf32b0d638aa0e0c9d83a73cc"
       }
     ]
   },
   {
-    "sha": "802694aeefbf58c7816d3c070174fc483c150927",
+    "sha": "3f29a02166878bdbf32b0d638aa0e0c9d83a73cc",
     "commit": {
       "author": {
-        "name": "Thiago de Arruda",
-        "email": "tpadilha84@gmail.com",
-        "date": "2014-01-31T14:03:09Z"
+        "name": "Nicolas Hillegeer",
+        "email": "nicolas@hillegeer.com",
+        "date": "2014-02-27T17:57:17Z"
       },
       "committer": {
         "name": "Thiago de Arruda",
         "email": "tpadilha84@gmail.com",
-        "date": "2014-01-31T14:03:09Z"
+        "date": "2014-02-28T14:48:43Z"
       },
-      "message": "Automate libuv download and build",
+      "message": "MAKE: ask gnulikes to warn and be pedantic + fixes\n\nIt seems clang 3.4 thinks the codebase is in fantastic shape and gcc 4.9.0\nhas only minor niggles, which I fixed:\n\n- fix uninitialized member warning:\n    In DEBUG mode the expr member doesn't get properly initialized to NULL.\n\n- fix warnings about directive inside of macro's:\n    On some platforms/compilers, sprintf is a macro. Putting macro directives\n    inside of a macro is unportable and gcc 4.9 warns about that.\n\n- fix signed vs. unsigned comparison warning:\n    The in-memory table will luckily not even come close to the limits imposed\n    by ssize_t. If it ever reaches that, we've got bigger problems.",
       "tree": {
-        "sha": "1b4836c2703713e66f0babf5def1abb197d76839",
-        "url": "https://api.github.com/repos/neovim/neovim/git/trees/1b4836c2703713e66f0babf5def1abb197d76839"
+        "sha": "a1f932447c6a657fff86b1a9823f37db282f2801",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/a1f932447c6a657fff86b1a9823f37db282f2801"
       },
-      "url": "https://api.github.com/repos/neovim/neovim/git/commits/802694aeefbf58c7816d3c070174fc483c150927",
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/3f29a02166878bdbf32b0d638aa0e0c9d83a73cc",
       "comment_count": 0
     },
-    "url": "https://api.github.com/repos/neovim/neovim/commits/802694aeefbf58c7816d3c070174fc483c150927",
-    "html_url": "https://github.com/neovim/neovim/commit/802694aeefbf58c7816d3c070174fc483c150927",
-    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/802694aeefbf58c7816d3c070174fc483c150927/comments",
+    "url": "https://api.github.com/repos/neovim/neovim/commits/3f29a02166878bdbf32b0d638aa0e0c9d83a73cc",
+    "html_url": "https://github.com/neovim/neovim/commit/3f29a02166878bdbf32b0d638aa0e0c9d83a73cc",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/3f29a02166878bdbf32b0d638aa0e0c9d83a73cc/comments",
     "author": {
-      "login": "tarruda",
-      "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
-      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
-      "url": "https://api.github.com/users/tarruda",
-      "html_url": "https://github.com/tarruda",
-      "followers_url": "https://api.github.com/users/tarruda/followers",
-      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
-      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
-      "organizations_url": "https://api.github.com/users/tarruda/orgs",
-      "repos_url": "https://api.github.com/users/tarruda/repos",
-      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "login": "aktau",
+      "id": 189413,
+      "avatar_url": "https://avatars.githubusercontent.com/u/189413",
+      "gravatar_id": "7b04c723316dd727866faa8d79962e77",
+      "url": "https://api.github.com/users/aktau",
+      "html_url": "https://github.com/aktau",
+      "followers_url": "https://api.github.com/users/aktau/followers",
+      "following_url": "https://api.github.com/users/aktau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aktau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aktau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aktau/subscriptions",
+      "organizations_url": "https://api.github.com/users/aktau/orgs",
+      "repos_url": "https://api.github.com/users/aktau/repos",
+      "events_url": "https://api.github.com/users/aktau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aktau/received_events",
       "type": "User",
       "site_admin": false
     },
     "committer": {
       "login": "tarruda",
       "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
       "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
       "url": "https://api.github.com/users/tarruda",
       "html_url": "https://github.com/tarruda",
@@ -203,40 +203,530 @@
     },
     "parents": [
       {
-        "sha": "72cf89bce8e4230dbc161dc5606f48ef9884ba70",
-        "url": "https://api.github.com/repos/neovim/neovim/commits/72cf89bce8e4230dbc161dc5606f48ef9884ba70",
-        "html_url": "https://github.com/neovim/neovim/commit/72cf89bce8e4230dbc161dc5606f48ef9884ba70"
+        "sha": "6eece5895e4f0c147ef21ebb4d170a54f8694182",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/6eece5895e4f0c147ef21ebb4d170a54f8694182",
+        "html_url": "https://github.com/neovim/neovim/commit/6eece5895e4f0c147ef21ebb4d170a54f8694182"
       }
     ]
   },
   {
-    "sha": "72cf89bce8e4230dbc161dc5606f48ef9884ba70",
+    "sha": "6eece5895e4f0c147ef21ebb4d170a54f8694182",
     "commit": {
       "author": {
-        "name": "Thiago de Arruda",
-        "email": "tpadilha84@gmail.com",
-        "date": "2014-01-31T13:39:15Z"
+        "name": "Felipe Oliveira Carvalho",
+        "email": "felipekde@gmail.com",
+        "date": "2014-02-27T19:13:11Z"
       },
       "committer": {
         "name": "Thiago de Arruda",
         "email": "tpadilha84@gmail.com",
-        "date": "2014-01-31T13:39:15Z"
+        "date": "2014-02-28T11:49:34Z"
       },
-      "message": "Import vim from changeset v5628:c9cad40b4181\n\n- Cleanup source tree, leaving only files necessary for compilation/testing\n- Process files through unifdef to remove tons of FEAT_* macros\n- Process files through uncrustify to normalize source code formatting.\n- Port the build system to cmake",
+      "message": "Fix a 'garbage value' warning found by Clang's static analyzer\n\n - Initialize lists in paragraph_start()\n - Remove two dead stores",
       "tree": {
-        "sha": "3ee06dbd8c57e291a8713289670ae1cb51397d44",
-        "url": "https://api.github.com/repos/neovim/neovim/git/trees/3ee06dbd8c57e291a8713289670ae1cb51397d44"
+        "sha": "681674aa2f61f6044ab750e30ba41e7895005e1b",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/681674aa2f61f6044ab750e30ba41e7895005e1b"
       },
-      "url": "https://api.github.com/repos/neovim/neovim/git/commits/72cf89bce8e4230dbc161dc5606f48ef9884ba70",
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/6eece5895e4f0c147ef21ebb4d170a54f8694182",
       "comment_count": 0
     },
-    "url": "https://api.github.com/repos/neovim/neovim/commits/72cf89bce8e4230dbc161dc5606f48ef9884ba70",
-    "html_url": "https://github.com/neovim/neovim/commit/72cf89bce8e4230dbc161dc5606f48ef9884ba70",
-    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/72cf89bce8e4230dbc161dc5606f48ef9884ba70/comments",
+    "url": "https://api.github.com/repos/neovim/neovim/commits/6eece5895e4f0c147ef21ebb4d170a54f8694182",
+    "html_url": "https://github.com/neovim/neovim/commit/6eece5895e4f0c147ef21ebb4d170a54f8694182",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/6eece5895e4f0c147ef21ebb4d170a54f8694182/comments",
+    "author": {
+      "login": "philix",
+      "id": 207795,
+      "avatar_url": "https://avatars.githubusercontent.com/u/207795",
+      "gravatar_id": "57cd99746126aa0518136a4271f1f9c1",
+      "url": "https://api.github.com/users/philix",
+      "html_url": "https://github.com/philix",
+      "followers_url": "https://api.github.com/users/philix/followers",
+      "following_url": "https://api.github.com/users/philix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/philix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/philix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/philix/subscriptions",
+      "organizations_url": "https://api.github.com/users/philix/orgs",
+      "repos_url": "https://api.github.com/users/philix/repos",
+      "events_url": "https://api.github.com/users/philix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/philix/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef6933bd609e4f353f54fef8897cda217b295e34",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/ef6933bd609e4f353f54fef8897cda217b295e34",
+        "html_url": "https://github.com/neovim/neovim/commit/ef6933bd609e4f353f54fef8897cda217b295e34"
+      }
+    ]
+  },
+  {
+    "sha": "ef6933bd609e4f353f54fef8897cda217b295e34",
+    "commit": {
+      "author": {
+        "name": "John Szakmeister",
+        "email": "john@szakmeister.net",
+        "date": "2014-02-28T11:09:04Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-28T11:18:24Z"
+      },
+      "message": "Setup better warning flags for Clang.",
+      "tree": {
+        "sha": "26411466e2329b7a3afa672e2ae65d0a49cc5a27",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/26411466e2329b7a3afa672e2ae65d0a49cc5a27"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/ef6933bd609e4f353f54fef8897cda217b295e34",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/ef6933bd609e4f353f54fef8897cda217b295e34",
+    "html_url": "https://github.com/neovim/neovim/commit/ef6933bd609e4f353f54fef8897cda217b295e34",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/ef6933bd609e4f353f54fef8897cda217b295e34/comments",
+    "author": {
+      "login": "jszakmeister",
+      "id": 448087,
+      "avatar_url": "https://avatars.githubusercontent.com/u/448087",
+      "gravatar_id": "69ad2af1f028b1b7e76c14f83bdf26cb",
+      "url": "https://api.github.com/users/jszakmeister",
+      "html_url": "https://github.com/jszakmeister",
+      "followers_url": "https://api.github.com/users/jszakmeister/followers",
+      "following_url": "https://api.github.com/users/jszakmeister/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jszakmeister/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jszakmeister/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jszakmeister/subscriptions",
+      "organizations_url": "https://api.github.com/users/jszakmeister/orgs",
+      "repos_url": "https://api.github.com/users/jszakmeister/repos",
+      "events_url": "https://api.github.com/users/jszakmeister/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jszakmeister/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fe226f5376a674626267f1128e7b1844c5b870a1",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/fe226f5376a674626267f1128e7b1844c5b870a1",
+        "html_url": "https://github.com/neovim/neovim/commit/fe226f5376a674626267f1128e7b1844c5b870a1"
+      }
+    ]
+  },
+  {
+    "sha": "fe226f5376a674626267f1128e7b1844c5b870a1",
+    "commit": {
+      "author": {
+        "name": "John Szakmeister",
+        "email": "john@szakmeister.net",
+        "date": "2014-02-28T10:01:31Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-28T11:16:57Z"
+      },
+      "message": "Only include libintl's include dir if libintl was found.\n\nThis prevents an error from CMake when libintl is not found.  It's not a\nrequired library, so we must wrap the inclusion in a conditional.  It\nwas already done for the library.",
+      "tree": {
+        "sha": "e2d3cc54639ab27f97515aea7845aec448b55d72",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/e2d3cc54639ab27f97515aea7845aec448b55d72"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/fe226f5376a674626267f1128e7b1844c5b870a1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/fe226f5376a674626267f1128e7b1844c5b870a1",
+    "html_url": "https://github.com/neovim/neovim/commit/fe226f5376a674626267f1128e7b1844c5b870a1",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/fe226f5376a674626267f1128e7b1844c5b870a1/comments",
+    "author": {
+      "login": "jszakmeister",
+      "id": 448087,
+      "avatar_url": "https://avatars.githubusercontent.com/u/448087",
+      "gravatar_id": "69ad2af1f028b1b7e76c14f83bdf26cb",
+      "url": "https://api.github.com/users/jszakmeister",
+      "html_url": "https://github.com/jszakmeister",
+      "followers_url": "https://api.github.com/users/jszakmeister/followers",
+      "following_url": "https://api.github.com/users/jszakmeister/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jszakmeister/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jszakmeister/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jszakmeister/subscriptions",
+      "organizations_url": "https://api.github.com/users/jszakmeister/orgs",
+      "repos_url": "https://api.github.com/users/jszakmeister/repos",
+      "events_url": "https://api.github.com/users/jszakmeister/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jszakmeister/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2e567a8354573ec96c71eb490e7c991f55ac397",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/d2e567a8354573ec96c71eb490e7c991f55ac397",
+        "html_url": "https://github.com/neovim/neovim/commit/d2e567a8354573ec96c71eb490e7c991f55ac397"
+      }
+    ]
+  },
+  {
+    "sha": "d2e567a8354573ec96c71eb490e7c991f55ac397",
+    "commit": {
+      "author": {
+        "name": "John Szakmeister",
+        "email": "john@szakmeister.net",
+        "date": "2014-02-28T10:33:31Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-28T11:15:27Z"
+      },
+      "message": "Use _NSGetEnviron on Mac OS X to gain access to environ.\n\nWhen building nvim as a shared library for testing, environ is not\nexposed.  In order to gain access to the environment variables, you must\nget a pointer to them from _NSGetEnviron().\n\nIt appears that this may affect the FreeBSD platform too.",
+      "tree": {
+        "sha": "1daf4d3a6cd72aec1be2d9602592cc7a8a252f49",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/1daf4d3a6cd72aec1be2d9602592cc7a8a252f49"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/d2e567a8354573ec96c71eb490e7c991f55ac397",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/d2e567a8354573ec96c71eb490e7c991f55ac397",
+    "html_url": "https://github.com/neovim/neovim/commit/d2e567a8354573ec96c71eb490e7c991f55ac397",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/d2e567a8354573ec96c71eb490e7c991f55ac397/comments",
+    "author": {
+      "login": "jszakmeister",
+      "id": 448087,
+      "avatar_url": "https://avatars.githubusercontent.com/u/448087",
+      "gravatar_id": "69ad2af1f028b1b7e76c14f83bdf26cb",
+      "url": "https://api.github.com/users/jszakmeister",
+      "html_url": "https://github.com/jszakmeister",
+      "followers_url": "https://api.github.com/users/jszakmeister/followers",
+      "following_url": "https://api.github.com/users/jszakmeister/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jszakmeister/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jszakmeister/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jszakmeister/subscriptions",
+      "organizations_url": "https://api.github.com/users/jszakmeister/orgs",
+      "repos_url": "https://api.github.com/users/jszakmeister/repos",
+      "events_url": "https://api.github.com/users/jszakmeister/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jszakmeister/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "55e00334fb8056e9dbd54513e9052519581808fb",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/55e00334fb8056e9dbd54513e9052519581808fb",
+        "html_url": "https://github.com/neovim/neovim/commit/55e00334fb8056e9dbd54513e9052519581808fb"
+      }
+    ]
+  },
+  {
+    "sha": "55e00334fb8056e9dbd54513e9052519581808fb",
+    "commit": {
+      "author": {
+        "name": "Felipe Oliveira Carvalho",
+        "email": "felipekde@gmail.com",
+        "date": "2014-02-28T05:59:44Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-28T09:43:20Z"
+      },
+      "message": "Include \"garray.h\" in ex_cmds2.c",
+      "tree": {
+        "sha": "8711cb8e8971a0bd6fd0e84d975943676b5a3391",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/8711cb8e8971a0bd6fd0e84d975943676b5a3391"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/55e00334fb8056e9dbd54513e9052519581808fb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/55e00334fb8056e9dbd54513e9052519581808fb",
+    "html_url": "https://github.com/neovim/neovim/commit/55e00334fb8056e9dbd54513e9052519581808fb",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/55e00334fb8056e9dbd54513e9052519581808fb/comments",
+    "author": {
+      "login": "philix",
+      "id": 207795,
+      "avatar_url": "https://avatars.githubusercontent.com/u/207795",
+      "gravatar_id": "57cd99746126aa0518136a4271f1f9c1",
+      "url": "https://api.github.com/users/philix",
+      "html_url": "https://github.com/philix",
+      "followers_url": "https://api.github.com/users/philix/followers",
+      "following_url": "https://api.github.com/users/philix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/philix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/philix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/philix/subscriptions",
+      "organizations_url": "https://api.github.com/users/philix/orgs",
+      "repos_url": "https://api.github.com/users/philix/repos",
+      "events_url": "https://api.github.com/users/philix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/philix/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "410f0a27c5dbd28a48d43af360c23c03ca088f6c",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/410f0a27c5dbd28a48d43af360c23c03ca088f6c",
+        "html_url": "https://github.com/neovim/neovim/commit/410f0a27c5dbd28a48d43af360c23c03ca088f6c"
+      }
+    ]
+  },
+  {
+    "sha": "410f0a27c5dbd28a48d43af360c23c03ca088f6c",
+    "commit": {
+      "author": {
+        "name": "Felipe Oliveira Carvalho",
+        "email": "felipekde@gmail.com",
+        "date": "2014-02-28T04:35:53Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-28T09:43:20Z"
+      },
+      "message": "Extract garray.c from misc2.c\n\nStart to split misc2.c in many other files (see #209).",
+      "tree": {
+        "sha": "4d2454a3af3b77c0adb4185682b2cb41b6afb199",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/4d2454a3af3b77c0adb4185682b2cb41b6afb199"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/410f0a27c5dbd28a48d43af360c23c03ca088f6c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/410f0a27c5dbd28a48d43af360c23c03ca088f6c",
+    "html_url": "https://github.com/neovim/neovim/commit/410f0a27c5dbd28a48d43af360c23c03ca088f6c",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/410f0a27c5dbd28a48d43af360c23c03ca088f6c/comments",
+    "author": {
+      "login": "philix",
+      "id": 207795,
+      "avatar_url": "https://avatars.githubusercontent.com/u/207795",
+      "gravatar_id": "57cd99746126aa0518136a4271f1f9c1",
+      "url": "https://api.github.com/users/philix",
+      "html_url": "https://github.com/philix",
+      "followers_url": "https://api.github.com/users/philix/followers",
+      "following_url": "https://api.github.com/users/philix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/philix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/philix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/philix/subscriptions",
+      "organizations_url": "https://api.github.com/users/philix/orgs",
+      "repos_url": "https://api.github.com/users/philix/repos",
+      "events_url": "https://api.github.com/users/philix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/philix/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79882bc7bdcb7de8827cb08187ea6252f4d1fd6e",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/79882bc7bdcb7de8827cb08187ea6252f4d1fd6e",
+        "html_url": "https://github.com/neovim/neovim/commit/79882bc7bdcb7de8827cb08187ea6252f4d1fd6e"
+      }
+    ]
+  },
+  {
+    "sha": "79882bc7bdcb7de8827cb08187ea6252f4d1fd6e",
+    "commit": {
+      "author": {
+        "name": "Scott Nielsen",
+        "email": "scottnielsen5@gmail.com",
+        "date": "2014-02-28T08:24:28Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-28T08:50:16Z"
+      },
+      "message": "Use cmake module instead of shared for nvim-test\n\nOn a Mac using shared creates libnvim-test.dylib which cannot be found\nby the hardcoded .so extension in helpers.moon, causing the unittests to\nfail. However, using module creates libnvim-test.so, allowing the tests\nto run. There will still be problems running the tests on windows,\nbecause both shared and module create dll file which will not be found\nby in helpers.moon.",
+      "tree": {
+        "sha": "049b34f769e2f5ad0709da186d700e61e6dca22c",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/049b34f769e2f5ad0709da186d700e61e6dca22c"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/79882bc7bdcb7de8827cb08187ea6252f4d1fd6e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/79882bc7bdcb7de8827cb08187ea6252f4d1fd6e",
+    "html_url": "https://github.com/neovim/neovim/commit/79882bc7bdcb7de8827cb08187ea6252f4d1fd6e",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/79882bc7bdcb7de8827cb08187ea6252f4d1fd6e/comments",
+    "author": {
+      "login": "scizo",
+      "id": 335334,
+      "avatar_url": "https://avatars.githubusercontent.com/u/335334",
+      "gravatar_id": "119f17edbc431f7fb30f09451a2f2f76",
+      "url": "https://api.github.com/users/scizo",
+      "html_url": "https://github.com/scizo",
+      "followers_url": "https://api.github.com/users/scizo/followers",
+      "following_url": "https://api.github.com/users/scizo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scizo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scizo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scizo/subscriptions",
+      "organizations_url": "https://api.github.com/users/scizo/orgs",
+      "repos_url": "https://api.github.com/users/scizo/repos",
+      "events_url": "https://api.github.com/users/scizo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scizo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4600b9c0359b531affefd1ba11d82f7493a6f8c2",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/4600b9c0359b531affefd1ba11d82f7493a6f8c2",
+        "html_url": "https://github.com/neovim/neovim/commit/4600b9c0359b531affefd1ba11d82f7493a6f8c2"
+      }
+    ]
+  },
+  {
+    "sha": "4600b9c0359b531affefd1ba11d82f7493a6f8c2",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T21:51:53Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T21:51:53Z"
+      },
+      "message": "Add unit test running to travis again",
+      "tree": {
+        "sha": "ec0858b274905b9ed4cae8fd4c40307faec12f6a",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/ec0858b274905b9ed4cae8fd4c40307faec12f6a"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/4600b9c0359b531affefd1ba11d82f7493a6f8c2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/4600b9c0359b531affefd1ba11d82f7493a6f8c2",
+    "html_url": "https://github.com/neovim/neovim/commit/4600b9c0359b531affefd1ba11d82f7493a6f8c2",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/4600b9c0359b531affefd1ba11d82f7493a6f8c2/comments",
     "author": {
       "login": "tarruda",
       "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
       "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
       "url": "https://api.github.com/users/tarruda",
       "html_url": "https://github.com/tarruda",
@@ -255,7 +745,7 @@
     "committer": {
       "login": "tarruda",
       "id": 842846,
-      "avatar_url": "https://gravatar.com/avatar/164e7269035a0a06248ab8336fb82e9f?d=https%3A%2F%2Fidenticons.github.com%2F62d717c48dcad8d5d5e78437b95b75f6.png&r=x",
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
       "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
       "url": "https://api.github.com/users/tarruda",
       "html_url": "https://github.com/tarruda",
@@ -272,7 +762,2025 @@
       "site_admin": false
     },
     "parents": [
-
+      {
+        "sha": "ba7e4f0c0cde3263653f06f962e0b5f7c497780d",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/ba7e4f0c0cde3263653f06f962e0b5f7c497780d",
+        "html_url": "https://github.com/neovim/neovim/commit/ba7e4f0c0cde3263653f06f962e0b5f7c497780d"
+      }
+    ]
+  },
+  {
+    "sha": "ba7e4f0c0cde3263653f06f962e0b5f7c497780d",
+    "commit": {
+      "author": {
+        "name": "John Szakmeister",
+        "email": "john@szakmeister.net",
+        "date": "2014-02-27T21:45:30Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T21:50:06Z"
+      },
+      "message": "Compile libuv with -fPIC.\n\nThis is needed so that th unit tests library compiles on 64-bit machines\ncorrectly.",
+      "tree": {
+        "sha": "6643d3b5e9f8514a3104ed12a8d2c9d8eb1c1b1c",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/6643d3b5e9f8514a3104ed12a8d2c9d8eb1c1b1c"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/ba7e4f0c0cde3263653f06f962e0b5f7c497780d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/ba7e4f0c0cde3263653f06f962e0b5f7c497780d",
+    "html_url": "https://github.com/neovim/neovim/commit/ba7e4f0c0cde3263653f06f962e0b5f7c497780d",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/ba7e4f0c0cde3263653f06f962e0b5f7c497780d/comments",
+    "author": {
+      "login": "jszakmeister",
+      "id": 448087,
+      "avatar_url": "https://avatars.githubusercontent.com/u/448087",
+      "gravatar_id": "69ad2af1f028b1b7e76c14f83bdf26cb",
+      "url": "https://api.github.com/users/jszakmeister",
+      "html_url": "https://github.com/jszakmeister",
+      "followers_url": "https://api.github.com/users/jszakmeister/followers",
+      "following_url": "https://api.github.com/users/jszakmeister/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jszakmeister/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jszakmeister/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jszakmeister/subscriptions",
+      "organizations_url": "https://api.github.com/users/jszakmeister/orgs",
+      "repos_url": "https://api.github.com/users/jszakmeister/repos",
+      "events_url": "https://api.github.com/users/jszakmeister/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jszakmeister/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7637c2b664cb9ed7955bfa54b8470eb0e9396364",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/7637c2b664cb9ed7955bfa54b8470eb0e9396364",
+        "html_url": "https://github.com/neovim/neovim/commit/7637c2b664cb9ed7955bfa54b8470eb0e9396364"
+      }
+    ]
+  },
+  {
+    "sha": "7637c2b664cb9ed7955bfa54b8470eb0e9396364",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T21:37:57Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T21:37:57Z"
+      },
+      "message": "Disable unit tests until fixed for travis",
+      "tree": {
+        "sha": "7ae0f47a058a7fdbc54c21622190ab2d9f293d37",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/7ae0f47a058a7fdbc54c21622190ab2d9f293d37"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/7637c2b664cb9ed7955bfa54b8470eb0e9396364",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/7637c2b664cb9ed7955bfa54b8470eb0e9396364",
+    "html_url": "https://github.com/neovim/neovim/commit/7637c2b664cb9ed7955bfa54b8470eb0e9396364",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/7637c2b664cb9ed7955bfa54b8470eb0e9396364/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd448123aa747dae519f03cc6625f331746718bc",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/fd448123aa747dae519f03cc6625f331746718bc",
+        "html_url": "https://github.com/neovim/neovim/commit/fd448123aa747dae519f03cc6625f331746718bc"
+      }
+    ]
+  },
+  {
+    "sha": "fd448123aa747dae519f03cc6625f331746718bc",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T21:31:45Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T21:31:45Z"
+      },
+      "message": "Add more example unit tests and run with travis",
+      "tree": {
+        "sha": "73a32985968af36de6f00e807de341d466e786f0",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/73a32985968af36de6f00e807de341d466e786f0"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/fd448123aa747dae519f03cc6625f331746718bc",
+      "comment_count": 2
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/fd448123aa747dae519f03cc6625f331746718bc",
+    "html_url": "https://github.com/neovim/neovim/commit/fd448123aa747dae519f03cc6625f331746718bc",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/fd448123aa747dae519f03cc6625f331746718bc/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d04ca90f5c3aca60641b2ee63931d66f593bbbd3",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/d04ca90f5c3aca60641b2ee63931d66f593bbbd3",
+        "html_url": "https://github.com/neovim/neovim/commit/d04ca90f5c3aca60641b2ee63931d66f593bbbd3"
+      }
+    ]
+  },
+  {
+    "sha": "d04ca90f5c3aca60641b2ee63931d66f593bbbd3",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T19:57:06Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T20:55:10Z"
+      },
+      "message": "Add basic infrastructure for unit testing\n\nTests will be written using the [moonscript](http://moonscript.org/) language,\na lua 'dialect' that is whitespace-significant and has a syntax similar to\ncoffeescript. The test framework used is [busted](http://olivinelabs.com/busted/),\na bdd framework for lua/moonscript.\n\nLuajit has a nice ffi module, which lets lua programs link shared libraries and\ncall it's functions without writing any C code.\n\nTo take advantage of this fact for testing C functions, a new target was added\nto CMakeLists.txt, which compiles neovim as a shared library that is loaded by\nthe process running the tests.\n\nThis commit adds necessary code for downloading and installing a lua package\nmanager(luarocks) locally. It wasn't added as a subtree because there are quite\na few blobs in its source tree.",
+      "tree": {
+        "sha": "91fb60f0120fbfbf0b68d8b1b85b2a4110391738",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/91fb60f0120fbfbf0b68d8b1b85b2a4110391738"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/d04ca90f5c3aca60641b2ee63931d66f593bbbd3",
+      "comment_count": 5
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/d04ca90f5c3aca60641b2ee63931d66f593bbbd3",
+    "html_url": "https://github.com/neovim/neovim/commit/d04ca90f5c3aca60641b2ee63931d66f593bbbd3",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/d04ca90f5c3aca60641b2ee63931d66f593bbbd3/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05b9e11584c30c03cb911bf909374c86450ee13e",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/05b9e11584c30c03cb911bf909374c86450ee13e",
+        "html_url": "https://github.com/neovim/neovim/commit/05b9e11584c30c03cb911bf909374c86450ee13e"
+      }
+    ]
+  },
+  {
+    "sha": "05b9e11584c30c03cb911bf909374c86450ee13e",
+    "commit": {
+      "author": {
+        "name": "Alexis Hildebrandt",
+        "email": "afh@surryhill.net",
+        "date": "2014-02-26T12:55:43Z"
+      },
+      "committer": {
+        "name": "ashleyh",
+        "email": "gh@ashleyh.eu",
+        "date": "2014-02-27T19:11:48Z"
+      },
+      "message": "CMakeLists: Improve handling of libintl\n\nby refactoring it into a separate CMake module",
+      "tree": {
+        "sha": "b6ed38e24df01346535aeeac552ce14b6db6eec9",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/b6ed38e24df01346535aeeac552ce14b6db6eec9"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/05b9e11584c30c03cb911bf909374c86450ee13e",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/05b9e11584c30c03cb911bf909374c86450ee13e",
+    "html_url": "https://github.com/neovim/neovim/commit/05b9e11584c30c03cb911bf909374c86450ee13e",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/05b9e11584c30c03cb911bf909374c86450ee13e/comments",
+    "author": {
+      "login": "afh",
+      "id": 16507,
+      "avatar_url": "https://avatars.githubusercontent.com/u/16507",
+      "gravatar_id": "e61a03f7f87be52e3381faecc83bc950",
+      "url": "https://api.github.com/users/afh",
+      "html_url": "https://github.com/afh",
+      "followers_url": "https://api.github.com/users/afh/followers",
+      "following_url": "https://api.github.com/users/afh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/afh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/afh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/afh/subscriptions",
+      "organizations_url": "https://api.github.com/users/afh/orgs",
+      "repos_url": "https://api.github.com/users/afh/repos",
+      "events_url": "https://api.github.com/users/afh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/afh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ashleyh",
+      "id": 472266,
+      "avatar_url": "https://avatars.githubusercontent.com/u/472266",
+      "gravatar_id": "7f81e5c17ced932e1af77f6953c79c5f",
+      "url": "https://api.github.com/users/ashleyh",
+      "html_url": "https://github.com/ashleyh",
+      "followers_url": "https://api.github.com/users/ashleyh/followers",
+      "following_url": "https://api.github.com/users/ashleyh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ashleyh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ashleyh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ashleyh/subscriptions",
+      "organizations_url": "https://api.github.com/users/ashleyh/orgs",
+      "repos_url": "https://api.github.com/users/ashleyh/repos",
+      "events_url": "https://api.github.com/users/ashleyh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ashleyh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fba074d99440f58d534d18ff8adbd6ca8c7be675",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/fba074d99440f58d534d18ff8adbd6ca8c7be675",
+        "html_url": "https://github.com/neovim/neovim/commit/fba074d99440f58d534d18ff8adbd6ca8c7be675"
+      }
+    ]
+  },
+  {
+    "sha": "fba074d99440f58d534d18ff8adbd6ca8c7be675",
+    "commit": {
+      "author": {
+        "name": "Alexis Hildebrandt",
+        "email": "afh@surryhill.net",
+        "date": "2014-02-25T19:35:11Z"
+      },
+      "committer": {
+        "name": "ashleyh",
+        "email": "gh@ashleyh.eu",
+        "date": "2014-02-27T19:11:48Z"
+      },
+      "message": "CMakeLists: Use nvim target name",
+      "tree": {
+        "sha": "f719fdbffa6192d2c2a725f9ac75f2f4b12b7aaf",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/f719fdbffa6192d2c2a725f9ac75f2f4b12b7aaf"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/fba074d99440f58d534d18ff8adbd6ca8c7be675",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/fba074d99440f58d534d18ff8adbd6ca8c7be675",
+    "html_url": "https://github.com/neovim/neovim/commit/fba074d99440f58d534d18ff8adbd6ca8c7be675",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/fba074d99440f58d534d18ff8adbd6ca8c7be675/comments",
+    "author": {
+      "login": "afh",
+      "id": 16507,
+      "avatar_url": "https://avatars.githubusercontent.com/u/16507",
+      "gravatar_id": "e61a03f7f87be52e3381faecc83bc950",
+      "url": "https://api.github.com/users/afh",
+      "html_url": "https://github.com/afh",
+      "followers_url": "https://api.github.com/users/afh/followers",
+      "following_url": "https://api.github.com/users/afh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/afh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/afh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/afh/subscriptions",
+      "organizations_url": "https://api.github.com/users/afh/orgs",
+      "repos_url": "https://api.github.com/users/afh/repos",
+      "events_url": "https://api.github.com/users/afh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/afh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ashleyh",
+      "id": 472266,
+      "avatar_url": "https://avatars.githubusercontent.com/u/472266",
+      "gravatar_id": "7f81e5c17ced932e1af77f6953c79c5f",
+      "url": "https://api.github.com/users/ashleyh",
+      "html_url": "https://github.com/ashleyh",
+      "followers_url": "https://api.github.com/users/ashleyh/followers",
+      "following_url": "https://api.github.com/users/ashleyh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ashleyh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ashleyh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ashleyh/subscriptions",
+      "organizations_url": "https://api.github.com/users/ashleyh/orgs",
+      "repos_url": "https://api.github.com/users/ashleyh/repos",
+      "events_url": "https://api.github.com/users/ashleyh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ashleyh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "95db76e28091b62645014d64f1b555c83d54ad4b",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/95db76e28091b62645014d64f1b555c83d54ad4b",
+        "html_url": "https://github.com/neovim/neovim/commit/95db76e28091b62645014d64f1b555c83d54ad4b"
+      }
+    ]
+  },
+  {
+    "sha": "95db76e28091b62645014d64f1b555c83d54ad4b",
+    "commit": {
+      "author": {
+        "name": "John Szakmeister",
+        "email": "john@szakmeister.net",
+        "date": "2014-02-25T03:22:56Z"
+      },
+      "committer": {
+        "name": "ashleyh",
+        "email": "gh@ashleyh.eu",
+        "date": "2014-02-27T19:11:48Z"
+      },
+      "message": "Improve libintl detection and linking.\n\nThis makes it so that a self-installed libintl is now detected and used.\nIt also attempts to locate a homebrew version of the library, if that\nexists.",
+      "tree": {
+        "sha": "635e0a09fd5a8692ee1573015e56b0a42dd40964",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/635e0a09fd5a8692ee1573015e56b0a42dd40964"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/95db76e28091b62645014d64f1b555c83d54ad4b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/95db76e28091b62645014d64f1b555c83d54ad4b",
+    "html_url": "https://github.com/neovim/neovim/commit/95db76e28091b62645014d64f1b555c83d54ad4b",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/95db76e28091b62645014d64f1b555c83d54ad4b/comments",
+    "author": {
+      "login": "jszakmeister",
+      "id": 448087,
+      "avatar_url": "https://avatars.githubusercontent.com/u/448087",
+      "gravatar_id": "69ad2af1f028b1b7e76c14f83bdf26cb",
+      "url": "https://api.github.com/users/jszakmeister",
+      "html_url": "https://github.com/jszakmeister",
+      "followers_url": "https://api.github.com/users/jszakmeister/followers",
+      "following_url": "https://api.github.com/users/jszakmeister/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jszakmeister/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jszakmeister/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jszakmeister/subscriptions",
+      "organizations_url": "https://api.github.com/users/jszakmeister/orgs",
+      "repos_url": "https://api.github.com/users/jszakmeister/repos",
+      "events_url": "https://api.github.com/users/jszakmeister/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jszakmeister/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ashleyh",
+      "id": 472266,
+      "avatar_url": "https://avatars.githubusercontent.com/u/472266",
+      "gravatar_id": "7f81e5c17ced932e1af77f6953c79c5f",
+      "url": "https://api.github.com/users/ashleyh",
+      "html_url": "https://github.com/ashleyh",
+      "followers_url": "https://api.github.com/users/ashleyh/followers",
+      "following_url": "https://api.github.com/users/ashleyh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ashleyh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ashleyh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ashleyh/subscriptions",
+      "organizations_url": "https://api.github.com/users/ashleyh/orgs",
+      "repos_url": "https://api.github.com/users/ashleyh/repos",
+      "events_url": "https://api.github.com/users/ashleyh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ashleyh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e728ce95ef2631a662940757ef11544881b895a2",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/e728ce95ef2631a662940757ef11544881b895a2",
+        "html_url": "https://github.com/neovim/neovim/commit/e728ce95ef2631a662940757ef11544881b895a2"
+      }
+    ]
+  },
+  {
+    "sha": "e728ce95ef2631a662940757ef11544881b895a2",
+    "commit": {
+      "author": {
+        "name": "Alexis Hildebrandt",
+        "email": "afh@surryhill.net",
+        "date": "2014-02-23T13:48:03Z"
+      },
+      "committer": {
+        "name": "ashleyh",
+        "email": "gh@ashleyh.eu",
+        "date": "2014-02-27T19:11:48Z"
+      },
+      "message": "Use GNU gettext from homebrew on Mac if available",
+      "tree": {
+        "sha": "03f1a165ce17e18982d49b41e852a446bcd3f9a7",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/03f1a165ce17e18982d49b41e852a446bcd3f9a7"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/e728ce95ef2631a662940757ef11544881b895a2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/e728ce95ef2631a662940757ef11544881b895a2",
+    "html_url": "https://github.com/neovim/neovim/commit/e728ce95ef2631a662940757ef11544881b895a2",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/e728ce95ef2631a662940757ef11544881b895a2/comments",
+    "author": {
+      "login": "afh",
+      "id": 16507,
+      "avatar_url": "https://avatars.githubusercontent.com/u/16507",
+      "gravatar_id": "e61a03f7f87be52e3381faecc83bc950",
+      "url": "https://api.github.com/users/afh",
+      "html_url": "https://github.com/afh",
+      "followers_url": "https://api.github.com/users/afh/followers",
+      "following_url": "https://api.github.com/users/afh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/afh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/afh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/afh/subscriptions",
+      "organizations_url": "https://api.github.com/users/afh/orgs",
+      "repos_url": "https://api.github.com/users/afh/repos",
+      "events_url": "https://api.github.com/users/afh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/afh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ashleyh",
+      "id": 472266,
+      "avatar_url": "https://avatars.githubusercontent.com/u/472266",
+      "gravatar_id": "7f81e5c17ced932e1af77f6953c79c5f",
+      "url": "https://api.github.com/users/ashleyh",
+      "html_url": "https://github.com/ashleyh",
+      "followers_url": "https://api.github.com/users/ashleyh/followers",
+      "following_url": "https://api.github.com/users/ashleyh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ashleyh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ashleyh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ashleyh/subscriptions",
+      "organizations_url": "https://api.github.com/users/ashleyh/orgs",
+      "repos_url": "https://api.github.com/users/ashleyh/repos",
+      "events_url": "https://api.github.com/users/ashleyh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ashleyh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f26b0aa88cee6c3d1aababd81e3d8de20f4af283",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/f26b0aa88cee6c3d1aababd81e3d8de20f4af283",
+        "html_url": "https://github.com/neovim/neovim/commit/f26b0aa88cee6c3d1aababd81e3d8de20f4af283"
+      }
+    ]
+  },
+  {
+    "sha": "f26b0aa88cee6c3d1aababd81e3d8de20f4af283",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T13:00:25Z"
+      },
+      "committer": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T13:00:25Z"
+      },
+      "message": "Merge pull request #187 from rjw57/issue-179\n\nUse CMAKE_C_FLAGS variable to set compiler flags.",
+      "tree": {
+        "sha": "9ec4bdecb0dd8eef0f38ff735977f9af3b1b7229",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/9ec4bdecb0dd8eef0f38ff735977f9af3b1b7229"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/f26b0aa88cee6c3d1aababd81e3d8de20f4af283",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/f26b0aa88cee6c3d1aababd81e3d8de20f4af283",
+    "html_url": "https://github.com/neovim/neovim/commit/f26b0aa88cee6c3d1aababd81e3d8de20f4af283",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/f26b0aa88cee6c3d1aababd81e3d8de20f4af283/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20b799a6f2dac747c6d0c324a7295689d001930d",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/20b799a6f2dac747c6d0c324a7295689d001930d",
+        "html_url": "https://github.com/neovim/neovim/commit/20b799a6f2dac747c6d0c324a7295689d001930d"
+      },
+      {
+        "sha": "1f827beff0ddc3aa10189aac5e756a70c3eec270",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/1f827beff0ddc3aa10189aac5e756a70c3eec270",
+        "html_url": "https://github.com/neovim/neovim/commit/1f827beff0ddc3aa10189aac5e756a70c3eec270"
+      }
+    ]
+  },
+  {
+    "sha": "20b799a6f2dac747c6d0c324a7295689d001930d",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T12:37:08Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T12:37:08Z"
+      },
+      "message": "Import luajit 2.0.2 source tree\n\nThis will be used for testing and in the future for reimplementing vimscript as\na compile-to-lua language.",
+      "tree": {
+        "sha": "cda43ee846bd0a5b7d9f189e0bd604bdc059fa62",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/cda43ee846bd0a5b7d9f189e0bd604bdc059fa62"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/20b799a6f2dac747c6d0c324a7295689d001930d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/20b799a6f2dac747c6d0c324a7295689d001930d",
+    "html_url": "https://github.com/neovim/neovim/commit/20b799a6f2dac747c6d0c324a7295689d001930d",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/20b799a6f2dac747c6d0c324a7295689d001930d/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d4a706352aaa54ca90a3748aad964c40121cf56",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/4d4a706352aaa54ca90a3748aad964c40121cf56",
+        "html_url": "https://github.com/neovim/neovim/commit/4d4a706352aaa54ca90a3748aad964c40121cf56"
+      }
+    ]
+  },
+  {
+    "sha": "4d4a706352aaa54ca90a3748aad964c40121cf56",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T09:58:52Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T12:35:32Z"
+      },
+      "message": "README.md: fix anchor tags for CentOS/RHEL section\n\nMAke the use of anchor tags consistent for the change introduced in\n5cd3cbe.",
+      "tree": {
+        "sha": "cceb0909a7889a2da1489efc32b1b331700fc6d1",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/cceb0909a7889a2da1489efc32b1b331700fc6d1"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/4d4a706352aaa54ca90a3748aad964c40121cf56",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/4d4a706352aaa54ca90a3748aad964c40121cf56",
+    "html_url": "https://github.com/neovim/neovim/commit/4d4a706352aaa54ca90a3748aad964c40121cf56",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/4d4a706352aaa54ca90a3748aad964c40121cf56/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de77dddc0b1d93402368acea5d2f37daaf5b4e44",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/de77dddc0b1d93402368acea5d2f37daaf5b4e44",
+        "html_url": "https://github.com/neovim/neovim/commit/de77dddc0b1d93402368acea5d2f37daaf5b4e44"
+      }
+    ]
+  },
+  {
+    "sha": "de77dddc0b1d93402368acea5d2f37daaf5b4e44",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T09:52:28Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T12:35:32Z"
+      },
+      "message": "README: add note on RHEL/CentOS 6\n\nAdd note on autoconf >2.69 being required for compilation under\nRHEL/CentOS.\n\nCloses #178.",
+      "tree": {
+        "sha": "6027ac41e20b7c74cc5996f34c668d4845966bd5",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/6027ac41e20b7c74cc5996f34c668d4845966bd5"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/de77dddc0b1d93402368acea5d2f37daaf5b4e44",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/de77dddc0b1d93402368acea5d2f37daaf5b4e44",
+    "html_url": "https://github.com/neovim/neovim/commit/de77dddc0b1d93402368acea5d2f37daaf5b4e44",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/de77dddc0b1d93402368acea5d2f37daaf5b4e44/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "97e635e8b6fba11ed1237cda3986139d2e6a2170",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/97e635e8b6fba11ed1237cda3986139d2e6a2170",
+        "html_url": "https://github.com/neovim/neovim/commit/97e635e8b6fba11ed1237cda3986139d2e6a2170"
+      }
+    ]
+  },
+  {
+    "sha": "1f827beff0ddc3aa10189aac5e756a70c3eec270",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T12:27:20Z"
+      },
+      "committer": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T12:29:44Z"
+      },
+      "message": "Use CMAKE_C_FLAGS variable to set compiler flags.\n\nIf the compiler is some GNU-alike variant, set the compiler flags to use\nthe gnu99 dialect of C and enable all warnings.\n\nNon-GNU compilers may have to have their own magic added to set dialect\nand enable warnings.\n\nCloses #179.",
+      "tree": {
+        "sha": "45634f1959f46e9d6993525873eb7275f9f993ff",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/45634f1959f46e9d6993525873eb7275f9f993ff"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/1f827beff0ddc3aa10189aac5e756a70c3eec270",
+      "comment_count": 2
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/1f827beff0ddc3aa10189aac5e756a70c3eec270",
+    "html_url": "https://github.com/neovim/neovim/commit/1f827beff0ddc3aa10189aac5e756a70c3eec270",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/1f827beff0ddc3aa10189aac5e756a70c3eec270/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d",
+        "html_url": "https://github.com/neovim/neovim/commit/29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d"
+      }
+    ]
+  },
+  {
+    "sha": "29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T10:28:06Z"
+      },
+      "committer": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T10:28:06Z"
+      },
+      "message": "Merge pull request #183 from rjw57/issue-178\n\nREADME: add note on RHEL/CentOS 6",
+      "tree": {
+        "sha": "cceb0909a7889a2da1489efc32b1b331700fc6d1",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/cceb0909a7889a2da1489efc32b1b331700fc6d1"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d",
+    "html_url": "https://github.com/neovim/neovim/commit/29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "97e635e8b6fba11ed1237cda3986139d2e6a2170",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/97e635e8b6fba11ed1237cda3986139d2e6a2170",
+        "html_url": "https://github.com/neovim/neovim/commit/97e635e8b6fba11ed1237cda3986139d2e6a2170"
+      },
+      {
+        "sha": "2bb9487b68db6cbb93e00c39fde8f5208893edc6",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/2bb9487b68db6cbb93e00c39fde8f5208893edc6",
+        "html_url": "https://github.com/neovim/neovim/commit/2bb9487b68db6cbb93e00c39fde8f5208893edc6"
+      }
+    ]
+  },
+  {
+    "sha": "97e635e8b6fba11ed1237cda3986139d2e6a2170",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T10:27:49Z"
+      },
+      "committer": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T10:27:49Z"
+      },
+      "message": "Merge pull request #184 from equalsraf/tb-curses\n\nUse FindCurses.cmake as fallback to find curses libraries",
+      "tree": {
+        "sha": "9077c15bb189369f989f5c960e0b51ff91967dbc",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/9077c15bb189369f989f5c960e0b51ff91967dbc"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/97e635e8b6fba11ed1237cda3986139d2e6a2170",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/97e635e8b6fba11ed1237cda3986139d2e6a2170",
+    "html_url": "https://github.com/neovim/neovim/commit/97e635e8b6fba11ed1237cda3986139d2e6a2170",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/97e635e8b6fba11ed1237cda3986139d2e6a2170/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+        "html_url": "https://github.com/neovim/neovim/commit/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5"
+      },
+      {
+        "sha": "82b724af4b996eb226c663cbdebf640331107dc5",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/82b724af4b996eb226c663cbdebf640331107dc5",
+        "html_url": "https://github.com/neovim/neovim/commit/82b724af4b996eb226c663cbdebf640331107dc5"
+      }
+    ]
+  },
+  {
+    "sha": "2bb9487b68db6cbb93e00c39fde8f5208893edc6",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T09:58:52Z"
+      },
+      "committer": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T09:58:52Z"
+      },
+      "message": "README.md: fix anchor tags for CentOS/RHEL section\n\nMAke the use of anchor tags consistent for the change introduced in\n5cd3cbe.",
+      "tree": {
+        "sha": "b3fb39fa1fd5f68cba02c1d57ca681ab42f3c850",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/b3fb39fa1fd5f68cba02c1d57ca681ab42f3c850"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/2bb9487b68db6cbb93e00c39fde8f5208893edc6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/2bb9487b68db6cbb93e00c39fde8f5208893edc6",
+    "html_url": "https://github.com/neovim/neovim/commit/2bb9487b68db6cbb93e00c39fde8f5208893edc6",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/2bb9487b68db6cbb93e00c39fde8f5208893edc6/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf",
+        "html_url": "https://github.com/neovim/neovim/commit/5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf"
+      }
+    ]
+  },
+  {
+    "sha": "5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T09:52:28Z"
+      },
+      "committer": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cam.ac.uk",
+        "date": "2014-02-27T09:55:23Z"
+      },
+      "message": "README: add note on RHEL/CentOS 6\n\nAdd note on autoconf >2.69 being required for compilation under\nRHEL/CentOS.\n\nCloses #178.",
+      "tree": {
+        "sha": "aafdfac62ed005a5321c5d8bfa356750eb667119",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/aafdfac62ed005a5321c5d8bfa356750eb667119"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf",
+    "html_url": "https://github.com/neovim/neovim/commit/5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+        "html_url": "https://github.com/neovim/neovim/commit/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5"
+      }
+    ]
+  },
+  {
+    "sha": "653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+    "commit": {
+      "author": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T09:55:01Z"
+      },
+      "committer": {
+        "name": "Rich Wareham",
+        "email": "rjw57@cantab.net",
+        "date": "2014-02-27T09:55:01Z"
+      },
+      "message": "Merge pull request #180 from pmandera/readme-links\n\nFixed headers and links to dependencies in README.md",
+      "tree": {
+        "sha": "fe5e75697e3b4c2d5dd80c58614d4b0f0f87a1f5",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/fe5e75697e3b4c2d5dd80c58614d4b0f0f87a1f5"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+    "html_url": "https://github.com/neovim/neovim/commit/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/653c1eb0d2c2ff8a07a68a93591c68a701ca5bd5/comments",
+    "author": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rjw57",
+      "id": 146860,
+      "avatar_url": "https://avatars.githubusercontent.com/u/146860",
+      "gravatar_id": "aaaba1caf3cb2529e9684005837154f2",
+      "url": "https://api.github.com/users/rjw57",
+      "html_url": "https://github.com/rjw57",
+      "followers_url": "https://api.github.com/users/rjw57/followers",
+      "following_url": "https://api.github.com/users/rjw57/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rjw57/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rjw57/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rjw57/subscriptions",
+      "organizations_url": "https://api.github.com/users/rjw57/orgs",
+      "repos_url": "https://api.github.com/users/rjw57/repos",
+      "events_url": "https://api.github.com/users/rjw57/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rjw57/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c02f00b7c439b4df7388606f778f6de47d7964d",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/2c02f00b7c439b4df7388606f778f6de47d7964d",
+        "html_url": "https://github.com/neovim/neovim/commit/2c02f00b7c439b4df7388606f778f6de47d7964d"
+      },
+      {
+        "sha": "40faad4be42646876a592230d8f44219756864d1",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/40faad4be42646876a592230d8f44219756864d1",
+        "html_url": "https://github.com/neovim/neovim/commit/40faad4be42646876a592230d8f44219756864d1"
+      }
+    ]
+  },
+  {
+    "sha": "40faad4be42646876a592230d8f44219756864d1",
+    "commit": {
+      "author": {
+        "name": "Paweł Mandera",
+        "email": "pawel.mandera@ugent.be",
+        "date": "2014-02-27T09:25:07Z"
+      },
+      "committer": {
+        "name": "Paweł Mandera",
+        "email": "pawel.mandera@ugent.be",
+        "date": "2014-02-27T09:25:07Z"
+      },
+      "message": "Anchors and reorder in dependency lists of README.md\n\nDependency headers for OSes needed anchors to work with links from\ncontent list. Reordered OSes in content list to match headers\n(all Linuxes first, Mac OS X last)",
+      "tree": {
+        "sha": "fe5e75697e3b4c2d5dd80c58614d4b0f0f87a1f5",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/fe5e75697e3b4c2d5dd80c58614d4b0f0f87a1f5"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/40faad4be42646876a592230d8f44219756864d1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/40faad4be42646876a592230d8f44219756864d1",
+    "html_url": "https://github.com/neovim/neovim/commit/40faad4be42646876a592230d8f44219756864d1",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/40faad4be42646876a592230d8f44219756864d1/comments",
+    "author": {
+      "login": "pmandera",
+      "id": 2940345,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2940345",
+      "gravatar_id": "5c3576f01a900153474f238a4044c564",
+      "url": "https://api.github.com/users/pmandera",
+      "html_url": "https://github.com/pmandera",
+      "followers_url": "https://api.github.com/users/pmandera/followers",
+      "following_url": "https://api.github.com/users/pmandera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pmandera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pmandera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pmandera/subscriptions",
+      "organizations_url": "https://api.github.com/users/pmandera/orgs",
+      "repos_url": "https://api.github.com/users/pmandera/repos",
+      "events_url": "https://api.github.com/users/pmandera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pmandera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pmandera",
+      "id": 2940345,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2940345",
+      "gravatar_id": "5c3576f01a900153474f238a4044c564",
+      "url": "https://api.github.com/users/pmandera",
+      "html_url": "https://github.com/pmandera",
+      "followers_url": "https://api.github.com/users/pmandera/followers",
+      "following_url": "https://api.github.com/users/pmandera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pmandera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pmandera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pmandera/subscriptions",
+      "organizations_url": "https://api.github.com/users/pmandera/orgs",
+      "repos_url": "https://api.github.com/users/pmandera/repos",
+      "events_url": "https://api.github.com/users/pmandera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pmandera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "740296415d2c6bc25fe6aba10fabace68c4fb0c5",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/740296415d2c6bc25fe6aba10fabace68c4fb0c5",
+        "html_url": "https://github.com/neovim/neovim/commit/740296415d2c6bc25fe6aba10fabace68c4fb0c5"
+      }
+    ]
+  },
+  {
+    "sha": "82b724af4b996eb226c663cbdebf640331107dc5",
+    "commit": {
+      "author": {
+        "name": "Rui Abreu Ferreira",
+        "email": "raf-ep@gmx.com",
+        "date": "2014-02-26T16:05:43Z"
+      },
+      "committer": {
+        "name": "Rui Abreu Ferreira",
+        "email": "raf-ep@gmx.com",
+        "date": "2014-02-27T09:23:15Z"
+      },
+      "message": "Use FindCurses to find curses libraries\n\n- Some systems have the FindCurses.cmake module to find\n  the curses/ncurses libraries using find_package(). And\n  in some CheckLibraries is not very reliable, so as\n  fallback FindCurses is now used if no other option\n  works.",
+      "tree": {
+        "sha": "e8c2d638e715001148901930a4f7556b468d6846",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/e8c2d638e715001148901930a4f7556b468d6846"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/82b724af4b996eb226c663cbdebf640331107dc5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/82b724af4b996eb226c663cbdebf640331107dc5",
+    "html_url": "https://github.com/neovim/neovim/commit/82b724af4b996eb226c663cbdebf640331107dc5",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/82b724af4b996eb226c663cbdebf640331107dc5/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "2c02f00b7c439b4df7388606f778f6de47d7964d",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/2c02f00b7c439b4df7388606f778f6de47d7964d",
+        "html_url": "https://github.com/neovim/neovim/commit/2c02f00b7c439b4df7388606f778f6de47d7964d"
+      }
+    ]
+  },
+  {
+    "sha": "740296415d2c6bc25fe6aba10fabace68c4fb0c5",
+    "commit": {
+      "author": {
+        "name": "Paweł Mandera",
+        "email": "pawel.mandera@ugent.be",
+        "date": "2014-02-27T09:16:33Z"
+      },
+      "committer": {
+        "name": "Paweł Mandera",
+        "email": "pawel.mandera@ugent.be",
+        "date": "2014-02-27T09:16:33Z"
+      },
+      "message": "Fixed header levels in markdown\n\nFixed header markup in README.md. Previously, header markup did not match levels in the content list.",
+      "tree": {
+        "sha": "f9101f03ff0547f1f51a73f0b709832335b94657",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/f9101f03ff0547f1f51a73f0b709832335b94657"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/740296415d2c6bc25fe6aba10fabace68c4fb0c5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/740296415d2c6bc25fe6aba10fabace68c4fb0c5",
+    "html_url": "https://github.com/neovim/neovim/commit/740296415d2c6bc25fe6aba10fabace68c4fb0c5",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/740296415d2c6bc25fe6aba10fabace68c4fb0c5/comments",
+    "author": {
+      "login": "pmandera",
+      "id": 2940345,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2940345",
+      "gravatar_id": "5c3576f01a900153474f238a4044c564",
+      "url": "https://api.github.com/users/pmandera",
+      "html_url": "https://github.com/pmandera",
+      "followers_url": "https://api.github.com/users/pmandera/followers",
+      "following_url": "https://api.github.com/users/pmandera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pmandera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pmandera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pmandera/subscriptions",
+      "organizations_url": "https://api.github.com/users/pmandera/orgs",
+      "repos_url": "https://api.github.com/users/pmandera/repos",
+      "events_url": "https://api.github.com/users/pmandera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pmandera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "pmandera",
+      "id": 2940345,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2940345",
+      "gravatar_id": "5c3576f01a900153474f238a4044c564",
+      "url": "https://api.github.com/users/pmandera",
+      "html_url": "https://github.com/pmandera",
+      "followers_url": "https://api.github.com/users/pmandera/followers",
+      "following_url": "https://api.github.com/users/pmandera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pmandera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pmandera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pmandera/subscriptions",
+      "organizations_url": "https://api.github.com/users/pmandera/orgs",
+      "repos_url": "https://api.github.com/users/pmandera/repos",
+      "events_url": "https://api.github.com/users/pmandera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pmandera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c02f00b7c439b4df7388606f778f6de47d7964d",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/2c02f00b7c439b4df7388606f778f6de47d7964d",
+        "html_url": "https://github.com/neovim/neovim/commit/2c02f00b7c439b4df7388606f778f6de47d7964d"
+      }
+    ]
+  },
+  {
+    "sha": "2c02f00b7c439b4df7388606f778f6de47d7964d",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T01:42:10Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T01:42:10Z"
+      },
+      "message": "Enable stderr for test in travis\n\nThis is necessary to keep the build from 'erroring' since running the tests\nwith valgrind will take a long time",
+      "tree": {
+        "sha": "1f5007db30a2d60e5313f9c5a838267b4a92e6cc",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/1f5007db30a2d60e5313f9c5a838267b4a92e6cc"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/2c02f00b7c439b4df7388606f778f6de47d7964d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/2c02f00b7c439b4df7388606f778f6de47d7964d",
+    "html_url": "https://github.com/neovim/neovim/commit/2c02f00b7c439b4df7388606f778f6de47d7964d",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/2c02f00b7c439b4df7388606f778f6de47d7964d/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2ce1df772a15220e4b9220ba0c884891c980b0f",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/a2ce1df772a15220e4b9220ba0c884891c980b0f",
+        "html_url": "https://github.com/neovim/neovim/commit/a2ce1df772a15220e4b9220ba0c884891c980b0f"
+      }
+    ]
+  },
+  {
+    "sha": "a2ce1df772a15220e4b9220ba0c884891c980b0f",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T01:23:51Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T01:23:51Z"
+      },
+      "message": "Modify travis configuration to install valgrind\n\nThis should fix previous build failures",
+      "tree": {
+        "sha": "dcada5683009b75aa1f08613c39b76303ef44094",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/dcada5683009b75aa1f08613c39b76303ef44094"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/a2ce1df772a15220e4b9220ba0c884891c980b0f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/a2ce1df772a15220e4b9220ba0c884891c980b0f",
+    "html_url": "https://github.com/neovim/neovim/commit/a2ce1df772a15220e4b9220ba0c884891c980b0f",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/a2ce1df772a15220e4b9220ba0c884891c980b0f/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a81d25e6e45f6b1d5be31251d08a62b32344f602",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/a81d25e6e45f6b1d5be31251d08a62b32344f602",
+        "html_url": "https://github.com/neovim/neovim/commit/a81d25e6e45f6b1d5be31251d08a62b32344f602"
+      }
+    ]
+  },
+  {
+    "sha": "a81d25e6e45f6b1d5be31251d08a62b32344f602",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T00:44:04Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T00:44:04Z"
+      },
+      "message": "Remove -e option from travis shell script",
+      "tree": {
+        "sha": "0438306bcf02e290e3af653ee336fa271b2bb3eb",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/0438306bcf02e290e3af653ee336fa271b2bb3eb"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/a81d25e6e45f6b1d5be31251d08a62b32344f602",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/a81d25e6e45f6b1d5be31251d08a62b32344f602",
+    "html_url": "https://github.com/neovim/neovim/commit/a81d25e6e45f6b1d5be31251d08a62b32344f602",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/a81d25e6e45f6b1d5be31251d08a62b32344f602/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c492c5e36d26bbc631d1e1de6c04a89a30552fd1",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/c492c5e36d26bbc631d1e1de6c04a89a30552fd1",
+        "html_url": "https://github.com/neovim/neovim/commit/c492c5e36d26bbc631d1e1de6c04a89a30552fd1"
+      }
+    ]
+  },
+  {
+    "sha": "c492c5e36d26bbc631d1e1de6c04a89a30552fd1",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T00:38:21Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T00:38:21Z"
+      },
+      "message": "Fix travis script\n\nIt was broke because the ls command failed when no valgrind.* file were found",
+      "tree": {
+        "sha": "ae97b98027142d8985cbf3ff9d9b05916560dddf",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/ae97b98027142d8985cbf3ff9d9b05916560dddf"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/c492c5e36d26bbc631d1e1de6c04a89a30552fd1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/c492c5e36d26bbc631d1e1de6c04a89a30552fd1",
+    "html_url": "https://github.com/neovim/neovim/commit/c492c5e36d26bbc631d1e1de6c04a89a30552fd1",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/c492c5e36d26bbc631d1e1de6c04a89a30552fd1/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a97c1754ad5275f05b150da1ebbf7c1baa9719b3",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/a97c1754ad5275f05b150da1ebbf7c1baa9719b3",
+        "html_url": "https://github.com/neovim/neovim/commit/a97c1754ad5275f05b150da1ebbf7c1baa9719b3"
+      }
+    ]
+  },
+  {
+    "sha": "a97c1754ad5275f05b150da1ebbf7c1baa9719b3",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T00:33:39Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-27T00:33:39Z"
+      },
+      "message": "Add test reporting to travis script",
+      "tree": {
+        "sha": "afbdbeeafacb6b0feb6d5471727627437bd21fcf",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/afbdbeeafacb6b0feb6d5471727627437bd21fcf"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/a97c1754ad5275f05b150da1ebbf7c1baa9719b3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/a97c1754ad5275f05b150da1ebbf7c1baa9719b3",
+    "html_url": "https://github.com/neovim/neovim/commit/a97c1754ad5275f05b150da1ebbf7c1baa9719b3",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/a97c1754ad5275f05b150da1ebbf7c1baa9719b3/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7",
+        "html_url": "https://github.com/neovim/neovim/commit/42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7"
+      }
+    ]
+  },
+  {
+    "sha": "42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7",
+    "commit": {
+      "author": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-26T23:19:58Z"
+      },
+      "committer": {
+        "name": "Thiago de Arruda",
+        "email": "tpadilha84@gmail.com",
+        "date": "2014-02-26T23:19:58Z"
+      },
+      "message": "Enable valgrind when testing on travis\n\nThis will slow down testing but will detect pull requests that introduce memory\nleaks.",
+      "tree": {
+        "sha": "8b170c96ac1d93a8c73fd477d6ab98e25e41dd88",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/8b170c96ac1d93a8c73fd477d6ab98e25e41dd88"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7",
+    "html_url": "https://github.com/neovim/neovim/commit/42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/42a9654faeccc77abbe1dbf2a8bc9ddd1fb4a8a7/comments",
+    "author": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tarruda",
+      "id": 842846,
+      "avatar_url": "https://avatars.githubusercontent.com/u/842846",
+      "gravatar_id": "164e7269035a0a06248ab8336fb82e9f",
+      "url": "https://api.github.com/users/tarruda",
+      "html_url": "https://github.com/tarruda",
+      "followers_url": "https://api.github.com/users/tarruda/followers",
+      "following_url": "https://api.github.com/users/tarruda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tarruda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tarruda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tarruda/subscriptions",
+      "organizations_url": "https://api.github.com/users/tarruda/orgs",
+      "repos_url": "https://api.github.com/users/tarruda/repos",
+      "events_url": "https://api.github.com/users/tarruda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tarruda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2d0cc95a160fa44a547be1f14783be29e3042d6",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/d2d0cc95a160fa44a547be1f14783be29e3042d6",
+        "html_url": "https://github.com/neovim/neovim/commit/d2d0cc95a160fa44a547be1f14783be29e3042d6"
+      }
+    ]
+  },
+  {
+    "sha": "d2d0cc95a160fa44a547be1f14783be29e3042d6",
+    "commit": {
+      "author": {
+        "name": "Göran Gustafsson",
+        "email": "gustafsson.g@gmail.com",
+        "date": "2014-02-25T09:43:34Z"
+      },
+      "committer": {
+        "name": "aph",
+        "email": "a.hewson@gmail.com",
+        "date": "2014-02-26T22:35:01Z"
+      },
+      "message": "Markdown fix + MacPorts URL",
+      "tree": {
+        "sha": "17450d72fb6f839857f8cf78f23d286dfdb2a3cb",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/17450d72fb6f839857f8cf78f23d286dfdb2a3cb"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/d2d0cc95a160fa44a547be1f14783be29e3042d6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/d2d0cc95a160fa44a547be1f14783be29e3042d6",
+    "html_url": "https://github.com/neovim/neovim/commit/d2d0cc95a160fa44a547be1f14783be29e3042d6",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/d2d0cc95a160fa44a547be1f14783be29e3042d6/comments",
+    "author": {
+      "login": "ggustafsson",
+      "id": 595501,
+      "avatar_url": "https://avatars.githubusercontent.com/u/595501",
+      "gravatar_id": "04ef3f14af2637b109c272d13b15c64c",
+      "url": "https://api.github.com/users/ggustafsson",
+      "html_url": "https://github.com/ggustafsson",
+      "followers_url": "https://api.github.com/users/ggustafsson/followers",
+      "following_url": "https://api.github.com/users/ggustafsson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ggustafsson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ggustafsson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ggustafsson/subscriptions",
+      "organizations_url": "https://api.github.com/users/ggustafsson/orgs",
+      "repos_url": "https://api.github.com/users/ggustafsson/repos",
+      "events_url": "https://api.github.com/users/ggustafsson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ggustafsson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ashleyh",
+      "id": 472266,
+      "avatar_url": "https://avatars.githubusercontent.com/u/472266",
+      "gravatar_id": "7f81e5c17ced932e1af77f6953c79c5f",
+      "url": "https://api.github.com/users/ashleyh",
+      "html_url": "https://github.com/ashleyh",
+      "followers_url": "https://api.github.com/users/ashleyh/followers",
+      "following_url": "https://api.github.com/users/ashleyh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ashleyh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ashleyh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ashleyh/subscriptions",
+      "organizations_url": "https://api.github.com/users/ashleyh/orgs",
+      "repos_url": "https://api.github.com/users/ashleyh/repos",
+      "events_url": "https://api.github.com/users/ashleyh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ashleyh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4fe188b16a1991a681cc532392096198ea19c04",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/f4fe188b16a1991a681cc532392096198ea19c04",
+        "html_url": "https://github.com/neovim/neovim/commit/f4fe188b16a1991a681cc532392096198ea19c04"
+      }
+    ]
+  },
+  {
+    "sha": "f4fe188b16a1991a681cc532392096198ea19c04",
+    "commit": {
+      "author": {
+        "name": "Alexis Hildebrandt",
+        "email": "afh@surryhill.net",
+        "date": "2014-02-25T19:00:08Z"
+      },
+      "committer": {
+        "name": "aph",
+        "email": "a.hewson@gmail.com",
+        "date": "2014-02-26T22:29:41Z"
+      },
+      "message": "README: Add support for custom brew installations",
+      "tree": {
+        "sha": "c6f269ec5617d0544e4aba9ea32135c96b6e8c7e",
+        "url": "https://api.github.com/repos/neovim/neovim/git/trees/c6f269ec5617d0544e4aba9ea32135c96b6e8c7e"
+      },
+      "url": "https://api.github.com/repos/neovim/neovim/git/commits/f4fe188b16a1991a681cc532392096198ea19c04",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/neovim/neovim/commits/f4fe188b16a1991a681cc532392096198ea19c04",
+    "html_url": "https://github.com/neovim/neovim/commit/f4fe188b16a1991a681cc532392096198ea19c04",
+    "comments_url": "https://api.github.com/repos/neovim/neovim/commits/f4fe188b16a1991a681cc532392096198ea19c04/comments",
+    "author": {
+      "login": "afh",
+      "id": 16507,
+      "avatar_url": "https://avatars.githubusercontent.com/u/16507",
+      "gravatar_id": "e61a03f7f87be52e3381faecc83bc950",
+      "url": "https://api.github.com/users/afh",
+      "html_url": "https://github.com/afh",
+      "followers_url": "https://api.github.com/users/afh/followers",
+      "following_url": "https://api.github.com/users/afh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/afh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/afh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/afh/subscriptions",
+      "organizations_url": "https://api.github.com/users/afh/orgs",
+      "repos_url": "https://api.github.com/users/afh/repos",
+      "events_url": "https://api.github.com/users/afh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/afh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "ashleyh",
+      "id": 472266,
+      "avatar_url": "https://avatars.githubusercontent.com/u/472266",
+      "gravatar_id": "7f81e5c17ced932e1af77f6953c79c5f",
+      "url": "https://api.github.com/users/ashleyh",
+      "html_url": "https://github.com/ashleyh",
+      "followers_url": "https://api.github.com/users/ashleyh/followers",
+      "following_url": "https://api.github.com/users/ashleyh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ashleyh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ashleyh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ashleyh/subscriptions",
+      "organizations_url": "https://api.github.com/users/ashleyh/orgs",
+      "repos_url": "https://api.github.com/users/ashleyh/repos",
+      "events_url": "https://api.github.com/users/ashleyh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ashleyh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b43224e06c525ee27f636bde1a17e9b79f05893c",
+        "url": "https://api.github.com/repos/neovim/neovim/commits/b43224e06c525ee27f636bde1a17e9b79f05893c",
+        "html_url": "https://github.com/neovim/neovim/commit/b43224e06c525ee27f636bde1a17e9b79f05893c"
+      }
     ]
   }
 ]
