@@ -54,9 +54,13 @@
     <label><input type="radio" name="layout" value="radial"> Radial</label>  
     <label><input type="radio" name="layout" value="line"> Line By Index</label>
      <label><input type="radio" name="layout" value="line_d"> Line By Date</label>
-    <label><input type="radio" name="layout" value="line_cat"> Line by Category</label>
+
   </form>
   <form>
+  Category:
+    <label><input type="radio" name="bybranch" value="nobranch" checked> None</label>
+    <label><input type="radio" name="bybranch" value="branch" > branch</label>
+  </form>
   Color:
     <label><input type="radio" name="color" value="nocolor" checked> None</label>
     <label><input type="radio" name="color" value="color_cat" > Category</label>
@@ -66,6 +70,11 @@
     <label><input type="radio" name="size" value="nosize" checked> None</label>
     <label><input type="radio" name="size" value="size_cat" > Category</label>
   </form>
+  <form>
+  Connection:
+    <label><input type="radio" name="size" value="reg_p" checked> Regular</label>
+    <label><input type="radio" name="size" value="cont_p" > Control Points</label>
+  </form>
   <div id="tooltip" class="hidden">
        
         <p><span id="value">100</span></p>
@@ -74,9 +83,9 @@
 d3.json("branches.json", function(error, branches){
 
   var commits_branch = {};
-   var remaining = branches.length;
+   var remaining = branches.length -1 ;
    branches.map(function(d, i){
-    d3.json("https://api.github.com/repos/neovim/neovim/commits?per_page=40&sha=" + d.commit.sha, function(data) {
+    d3.json("https://api.github.com/repos/neovim/neovim/commits?per_page=5&sha=" + d.commit.sha , function(data) {
     commits_branch[d.name] = data;
     --remaining;
     if (remaining == 0)
@@ -92,6 +101,8 @@ function doSomething(){
 var width = 900,
     height = 700;
 var padding = 10;
+var controlpoints = false;
+var bycat = false;
 
 var svg = d3.select("body").append("svg")
             .attr("width", width)
@@ -110,6 +121,7 @@ var graph = {nodes:[], links:[]};
   //return { cat:Math.floor(nb_cat*Math.random()) }; 
 //})
 
+var branch_id = 0;
 var commits= [];
 for(var hr in commits_branch)
 {
@@ -118,11 +130,11 @@ for(var hr in commits_branch)
     graph.nodes.push(commits_branch[hr][nb_nodes]);
     commits_branch[hr][nb_nodes].date = Date.parse(commits_branch[hr][nb_nodes].commit.committer.date);
     commits_branch[hr][nb_nodes].branch = hr;
+    commits_branch[hr][nb_nodes].branchid = branch_id;
 
   }
   commits = commits.concat(commits_branch[hr]);
-  
-
+  ++branch_id
 }
 
 
@@ -138,29 +150,26 @@ graph.nodes.map(function(d, i) {
     
       if(d.parents[b].sha == e.sha  && i != j)
       {
-        graph.links.push({"source": j, "target": i})   
+        graph.links.push({"source": i, "target": j}) 
+
       }
     }
-    
-
-    
   })
-  if(categories[d.author.name])
-  {
-
-  console.log("here");
-  categories[d.author.name] = i;
-  d.cat = i;  
-  }
-  else
-  {
-    d.cat = categories[d.author.name]
-  }
-
-
+  
 })
  
-console.log(graph);
+
+
+graph.nodes.sort(function(a, b) {
+  return d3.ascending(a.date, b.date);
+});
+
+
+graph.nodes.map( function(d) {
+
+  console.log(d.date);
+})
+
 
 // build the arrow.
 svg.append("svg:defs").selectAll("marker")
@@ -192,12 +201,6 @@ function tick(d) {
   graph_update(0);
 }
 
-function author_y(d){
-
-//console.log(d.author.id);
-return d.author.id/(width*7);
-
-}
 
 function random_layout() {
   
@@ -206,6 +209,7 @@ function random_layout() {
   graph.nodes.forEach(function(d, i) {
     d.x = width/4 + 2*width*Math.random()/4;
     d.y = height/4 + 2*height*Math.random()/4;
+    if(bycat) line_cat_layout();
   })
   
   graph_update(500);
@@ -222,9 +226,10 @@ function line_layout() {
 
   force.stop();
   graph.nodes.forEach(function(d, i) {
-    
-    d.y = author_y(d) + 80;
+
+    d.y = height/2;
     d.x = (((width - padding)/graph.nodes.length * i)) + padding; //10 for padding
+    if(bycat) line_cat_layout();
   })
    graph_update(500);
 }
@@ -232,14 +237,13 @@ function line_date() {
 
   force.stop();
 
-  var minDate= d3.min(commits , function(data){
+  var minDate= d3.min(commits , function(d){
     return d.date;
   });
   
-  var maxDate= d3.max(commits , function(data){
+  var maxDate= d3.max(commits , function(d){
     return d.date;
   });
-
   
   var timescale =  d3.time.scale()
   .domain([minDate,maxDate])
@@ -247,7 +251,9 @@ function line_date() {
   
   graph.nodes.forEach(function(d, i) {
     d.y = height/2;
-    d.x = width - timescale(d.date) ;
+    d.x =  timescale(d.date);
+    if(bycat) line_cat_layout();
+    
   })
  graph_update(500);
 }
@@ -256,14 +262,23 @@ function line_date() {
 function line_cat_layout() {
 
   force.stop();
-
+  bycat = true;
   graph.nodes.forEach(function(d, i) {
-    d.y = height/2 + d.cat*20;
+    d.y = (d.branchid * 30) + height/3;
   })
 
   graph_update(500);
 }
+function nobranchy (){
+    force.stop();
+    bycat = false;
+    graph.nodes.forEach(function(d, i) {
+    d.y =  height/2;
+  })
+    graph_update(500)
 
+
+}
 function radial_layout() {
 
   force.stop();
@@ -284,6 +299,7 @@ function radial_layout() {
     d.data.y = arc.centroid(d)[1]+width/2;
     d.data.endAngle = d.endAngle; 
     d.data.startAngle = d.startAngle; 
+    if(bycat) line_cat_layout();
     return d.data;
   })
 
@@ -291,34 +307,57 @@ function radial_layout() {
 }
 
 function category_color() {
-  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
+  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.commit.author.name); });
 }
 
 function category_size() {
-  d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return Math.sqrt((d.cat+1)*10); });
+  d3.selectAll("circle").transition().duration(500).attr("r", function(d) { return Math.sqrt(d.author.id /10000); });
 }
 
 function graph_update(delay) {
    
-  
-  link.transition().duration(delay)
-      .attr("x1", function(d) { return d.target.x; })
-      .attr("y1", function(d) { return d.target.y; })
-      .attr("x2", function(d) { return d.source.x; })
-      .attr("y2", function(d) { return d.source.y; })
-      .attr("d", function(d) {
-        var dx = d.target.x - d.source.x,
-            dy = d.target.y - d.source.y,
-            //dr = Math.sqrt(dx * dx + dy * dy);
-            dr = 800;
-        return "M" + 
-            d.target.x + "," + 
-            d.target.y + "A" + 
-            dr + "," + dr + " 0 0,1 " + 
-            d.source.x + "," + 
-            d.source.y;
-    });
+   var line = d3.svg.line()
+    .x(function (d) {return d.x;})
+    .y(function (d) { return  d.y;})
+   
 
+  if (controlpoints)
+  {
+    
+    line.interpolate("step")
+    var offset_y = 5;
+    link.transition().duration(delay)
+        .attr("d", function (d) {
+            return line([{
+              x: d.source.x,
+              y: d.source.y
+            }, {
+              x: d.source.x,
+              y: d.source.y + offset_y
+            }, {
+              x: d.target.x,
+              y: d.target.y + offset_y
+            }, {
+              x: d.target.x,
+              y: d.target.y
+            }])})
+    }
+    else
+    {
+
+
+      link.transition().duration(delay)
+      .attr("d", function(d) {
+       return line([{
+              x: d.source.x,
+              y: d.source.y
+            },  {
+              x: d.target.x,
+              y: d.target.y 
+            }, ])})
+
+
+    }
   node.transition().duration(delay)
       .attr("transform", function(d) { 
         return "translate("+d.x+","+d.y+")"; 
@@ -329,8 +368,18 @@ d3.select("input[value=\"force\"]").on("click", force_layout);
 d3.select("input[value=\"random\"]").on("click", random_layout);
 d3.select("input[value=\"line\"]").on("click", line_layout);
 d3.select("input[value=\"line_d\"]").on("click", line_date);
-d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
 d3.select("input[value=\"radial\"]").on("click", radial_layout);
+d3.select("input[value=\"nobranch\"]").on("click", nobranchy);
+d3.select("input[value=\"branch\"]").on("click", line_cat_layout);
+d3.select("input[value=\"reg_p\"]").on("click", function(){
+  controlpoints = false;
+  graph_update(0);
+});
+d3.select("input[value=\"cont_p\"]").on("click", function(){
+  controlpoints = true;
+  graph_update(0);
+});
+
 
 d3.select("input[value=\"nocolor\"]").on("click", function() {
   d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
