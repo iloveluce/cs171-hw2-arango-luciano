@@ -83,7 +83,7 @@
 d3.json("branches.json", function(error, branches){
 
   var commits_branch = {};
-   var remaining = branches.length -1 ;
+   var remaining = branches.length -1;
    branches.map(function(d, i){
     d3.json("commits_branch" + i + ".json" , function(data) {
     commits_branch[d.name] = data;
