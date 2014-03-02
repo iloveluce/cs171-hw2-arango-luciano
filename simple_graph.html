@@ -85,7 +85,7 @@ d3.json("branches.json", function(error, branches){
   var commits_branch = {};
    var remaining = branches.length -1 ;
    branches.map(function(d, i){
-    d3.json("https://api.github.com/repos/neovim/neovim/commits?per_page=5&sha=" + d.commit.sha , function(data) {
+    d3.json("commits_branch" + i + ".json" , function(data) {
     commits_branch[d.name] = data;
     --remaining;
     if (remaining == 0)
@@ -112,14 +112,6 @@ var fill = d3.scale.category10();
 
 var graph = {nodes:[], links:[]};
 
-
-
-//var nb_nodes = 0;
-//var nb_cat = 5;
-
-//graph.nodes = d3.range(nb_nodes).map(function() {  
-  //return { cat:Math.floor(nb_cat*Math.random()) }; 
-//})
 
 var branch_id = 0;
 var commits= [];
@@ -165,11 +157,8 @@ graph.nodes.sort(function(a, b) {
 });
 
 
-graph.nodes.map( function(d) {
 
-  console.log(d.date);
-})
-
+/* SVG arrows thanks to example from Hw2 repository*/
 
 // build the arrow.
 svg.append("svg:defs").selectAll("marker")
@@ -419,6 +408,7 @@ d3.selectAll(".node").on("mouseover", function(d) {
 var xPosition = d.x;
 var yPosition = d.y;
 
+/* Tooltip thanks to D3 Chapter 10 in book*/
 
 //Update the tooltip position and value
 d3.select("#tooltip")
